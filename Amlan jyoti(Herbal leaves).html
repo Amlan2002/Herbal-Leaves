@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Online Food Delivery Servicein in India | MyOnlineMeals.com</title>
+    <link rel="stylesheet" href="phone.css">
+   <style>
+       
+        
+       *{
+            margin: 0;
+            padding: 0;
+            
+        }
+        html{
+            scroll-behavior: smooth;
+        }
+        
+        /* Css Variables */
+        /* :root{
+            --navbar-height:59px;
+        } */
+       
+        
+        /* Navigation bar */
+        #navbar{
+            display: flex;
+            align-items: center;
+            position: sticky;
+            top:0px;
+
+        }
+
+        #navbar::before{
+            content: "";
+            background-color: black;
+            position:absolute;
+            top: 0px;
+            left: 0px;
+            height: 100%;
+            width: 100%;
+            z-index: -1;
+            opacity: 0.4;
+        }
+        /* Navigation Bar: Logo and Image  */
+            #logo{
+                 margin:10px 34px;
+                 
+                }
+             #logo img{
+                height: 40px;
+                 margin: 0px 0px;
+                 width: 42px;
+
+            }
+         
+        /* Navigation Bar:List styling  */
+       
+
+       #navbar Ul{
+            display:flex;
+            font-family: 'Baloo Bhai 2', cursive;
+        }
+         
+        #navbar ul li{
+            /* color style  */
+            list-style:none;
+            font-size: 1.3rem;
+        }
+        #navbar ul li a{
+            color: white;
+            display:block;
+            padding:3px 22px;
+            border-radius: 20px;
+            text-decoration: none;
+        }
+        #navbar ul li a:hover{
+            color: black;
+            background-color: white;
+            
+        }
+
+        /* Home Section  */
+        #home{
+            
+            display: flex;
+            flex-direction: column;
+            padding: 3px 200px;
+            height: 469px;
+            justify-content: center;
+            align-items: center;
+        }
+        #home::before{
+            content: "";
+            background:url('https://images.pexels.com/photos/461428/pexels-photo-461428.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940') no-repeat center center/cover;
+            position:absolute;
+            top: 0px;
+            left: 0px;
+            height: 500px;
+            width: 100%;
+            z-index: -1;
+            opacity: 0.89;
+           
+        }
+          #home h1{
+              color:rgb(255, 255, 255);
+              text-align: center;
+          }
+
+          #home p{
+              color:white;
+              text-align: center;
+              font-size:1.5rem;
+            }
+
+            /* services section  */
+              .services{
+                  margin: 34px;
+                  display: flex;
+              }
+              .services .box{
+                  border: 2px solid brown;
+                  padding:34px ;
+                  margin:3px 6px;
+                  border-radius: 28px;
+                  background: #f2f2f2;
+                  
+                      
+              }
+              .services .box img{
+                height: 156px;
+                margin: auto;
+                display: block;
+              }
+           
+               footer{
+                   background:black;
+                   color: white;
+                   padding: 25px 20px;
+               }
+
+
+        /* Utility classes */
+        .h-primary{
+            font-size:3.8rem;
+            padding:12px;
+            font-family: 'Baloo Bhai 2', cursive;
+        }
+        .h-secondary{
+            font-size:2.3rem;
+            padding:12px;
+            font-family: 'Baloo Bhai 2', cursive;
+        }
+
+
+        .btn{
+            border-radius: 10px;
+            font-family: 'Baloo Bhai 2', cursive;
+            padding: 6px 20px;
+            border: 2px solid white;
+            background-color: rgb(133, 133, 11);
+            color: white;
+            margin: 9px;
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+        .btn:hover{
+            color: black;
+            background-color: white;
+        }
+        .center{
+            text-align:center;
+        }
+
+        @media only screen and (max-width: 600px) {
+
+        html{
+            scroll-behavior: smooth;
+        }
+      
+
+        #navbar::before{
+            
+            width: 132%;
+            
+        }
+        /* Navigation Bar: Logo and Image  */
+            #logo{
+                 margin:10px 34px;
+                 
+                }
+             #logo img{
+                height: 40px;
+                 margin: 0px 0px;
+                 width: 42px;
+
+            }
+         
+      
+        #home::before{
+         
+            width: 132%;
+           
+           
+        }
+          #home h1{
+              color:white;
+              text-align: center;
+          }
+
+          #home p{
+            
+              display:none;
+            }
+
+            /* services section  */
+              .services{
+                  margin: 34px;
+                  display: inline-block;
+              }
+              
+            
+               footer{
+                width: 120%;
+               }
+
+
+        /* Utility classes */
+        .h-primary{
+            font-size:3rem;
+           text-align: center;
+            font-family: 'Baloo Bhai 2', cursive;
+        }
+       
+
+
+       
+        }  
+
+   </style>
+       
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <nav id="navbar">
+      <div id="logo">
+        <img src="https://www.clipartkey.com/mpngs/m/113-1139891_natural-herbal-hair-care-herb-logo-png.png" >
+      </div>
+      <ul>
+      <li class="item"><a href="#home">Home</a></li>
+      <li class="item"><a href="#services-container">Herbal leaves</a></li>
+     
+     </ul>
+    </nav>
+
+    <section id="home">
+        <h1 class="h-primary">Herbal leaves </h1>
+            <p>These plants have been a part of our lives since our existence and have been used for various medicinal purposes since ancient times. Medicinal plants and herbs like turmeric, ginger, basil leaves, mint and cinnamon are commonly used in Indian dishes and they offer several health benefits.</p>
+       
+       
+    </section>
+    
+    <section id="services-container">
+   
+
+        
+        <h1 class="h-primary center">Various Herbal Leaves</h1>
+        <div class="services">
+            <div class="box">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTaISySWnm1QVjsbOgH02-R_qqu0jtbddEVuQ&usqp=CAU" alt="">
+                <h2 class="h-secondary center">Mint</h2>
+                <p class="center">
+                    There are several varieties of mint. You can use it in drinks like mojitos or mint juleps. Or add some mint to your summer iced tea. Mint freshens the breath and will help to calm your stomach. But if you grow mint, remember that it’s considered an invasive plant. Mint will spread and take over your garden. It’s best grown in containers.Mint leaves are a tender herb with gentle stems. It is best to add them raw or at the end of the cooking process. This helps them maintain their delicate flavor and texture.Mint contains menthol. This an aromatic decongestant that might help to break up phlegm and mucus, making it easier to expel.</p>
+            </div>
+            <div class="box">
+                <img src="https://www.niehs.nih.gov/health/assets/images/aloe_og.jpg" alt="">
+                <h2 class="h-secondary center">Aloe Vera</h2>
+                <p class="center">
+                    Aloe Vera is known for its soothing properties for burns or skin problems. Many people keep an Aloe Vera plant handy in the kitchen for incidental burns. But taken orally, Aloe Vera will also help with digestion, circulation and weight loss. There are over 250 species of Aloes. Most of these are native to Africa. Aloe Vera plants are very succulent and are as much as 95% water. That means they are very sensitive to frost. In warm climates, they should be in full sun or light shade. But you may have more success with this plant by keeping it indoors in a sunny window.</p>
+            </div>
+            <div class="box">
+                <img src="https://i.ndtvimg.com/i/2015-10/neem-leaves-uses-625_625x350_41444631794.jpg" alt="">
+                <h2 class="h-secondary center">Neem</h2>
+                <p class="center">In the world of Ayurveda, neem is a popular medicinal herb that's been part of traditional remedies that date back almost 5000 years. Also known as Azadirachta Indica in English or 'Neemba' in Sanskrit, the neem tree is a really good example of how nature holds both the problem and the cure.Neem oil is a common pest repellant, effective against sand fleas and mosquitoes. Other forms of neem can help control termites and repel moths.
+
+                    Some manufacturers add neem to animal shampoos to repel ticks and fleas. They may also add it to cattle feed or grain to repel pests and parasites.</p>
+            </div>
+            </div>
+        </section>
+
+            <section class="services-container">
+                <div class="services">
+            <div class="box">
+                <img src="https://miro.medium.com/max/600/1*8s_7imX5ajLOIcJkfUzmQQ.jpeg" alt="">
+                <h2 class="h-secondary center">Tulsi</h2>
+                <p class="center">Basil most popularly known as Tulsi has been used for thousands of years in Ayurveda for its diverse healing properties. Healing Power: The Basil or Tulsi plant has many medicinal properties. The leaves strengthen the stomach and help in respiratory diseases. Kidney Stone: Basil has strengthening effect on the kidney.Regular consumption of tulsi may lower blood pressure and cholesterol by regulating cortisol levels, reducing the risk of stroke, heart attack, and other related diseases. It can also help relieve headaches and may lessen anxiety and depression for some. 1﻿ Regular consumption may lead to better sleep</p>
+            </div>
+            <div class="box">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSd2NQR24K9AlgmMdpevP3lH5g0yFPiJcIU8w&usqp=CAU" alt="">
+                <h2 class="h-secondary center">Ashwagandha</h2>
+                <p class="center">Ashwagandha is one of the most important herbs in Ayurveda, a form of alternative medicine based on Indian principles of natural healing.
+
+                    It has been used for over 3,000 years to relieve stress, increase energy levels, and improve concentration (1Trusted Source).
+                    
+                    Ashwagandha is Sanskrit for smell of the horse, which refers to both its unique smell and ability to increase strength.
+                    
+                    Its botanical name is Withania somnifera, and it’s also known by several other names, including Indian ginseng and winter cherry.Cortisol is known as a stress hormone given that your adrenal glands release it in response to stress, as well as when your blood sugar levels get too low.Ashwagandha is perhaps best known for its ability to reduce stress.</p>
+            </div>
+        </div>
+
+    <footer>
+        <div class="center">
+            copyright &copy; Amlanjyoti sahoo All rights reserved
+        </div>
+    </footer>
+</body>
+</html>
